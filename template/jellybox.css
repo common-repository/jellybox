@@ -1,0 +1,209 @@
+/*
+* Plugin Name: jellybox
+* Plugin URI: http://www.jellyrobotics.com/
+* Description: Tilted and/or Animated Text, Images and Boxes
+* Version: 1.4
+* Author: John Carter (not from Mars)
+* Author URI: http://www.jellyrobotics.com
+*
+*
+* Copyright © 2013 JellyFilled Studios <john@casacarter.com>
+* All rights reserved.
+*
+* This program is distributed under the GNU General Public License, Version 2,
+* June 1991. Copyright © 1989, 1991 Free Software Foundation, Inc., 51 Franklin
+* St, Fifth Floor, Boston, MA 02110, USA
+*
+* THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+* ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+* WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+* DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+* ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+* (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+* LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+* ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+* (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+* SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*
+*
+*
+*
+* WARNING: THIS IS NOT WHERE YOU SHOULD MAKE CHANGES
+*          Modification made to this file will be
+*          overwitten by plug-in updates
+* =======================================================
+* To make customizations that will not be overwritten
+* by plug-in updates, you can safely make changes to the 
+* file jellybox/css/jellybox.css using the plugin editor
+*
+*
+*/
+
+
+.jellyboxPanel,
+.jellyboxYellow,
+.jellyboxBlack,
+.jellyboxRed,
+.jellyboxGreen,
+.jellyboxBlue,
+.jellyboxLightBlue
+	{
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+
+	color: #000000;
+
+	box-shadow:         3px 3px 8px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:    3px 3px 8px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+
+	border-style: none;
+
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px; 
+	-khtml-border-radius: 10px;
+	}
+
+
+
+.jellyboxPanel
+	{
+	border-width: 3px;
+	border-color: #bbbbbb;
+	border-style: solid;
+
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px; 
+	-khtml-border-radius: 20px;
+
+	/* ColorZilla - Ultimate CSS Gradient Generator */
+	background: #eeeeee;
+	background: -moz-linear-gradient(left,  #eeeeee 0%, #cccccc 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+	background: -webkit-linear-gradient(left,  #eeeeee 0%,#cccccc 100%);
+	background: -o-linear-gradient(left,  #eeeeee 0%,#cccccc 100%);
+	background: -ms-linear-gradient(left,  #eeeeee 0%,#cccccc 100%);
+	background: linear-gradient(to right,  #eeeeee 0%,#cccccc 100%);
+
+	/* Shadow & Gradient */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color="#aaaaaa"),
+			progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 );
+	}
+
+
+
+
+
+.jellyboxYellow
+	{
+	/* ColorZilla - Ultimate CSS Gradient Generator */
+	background: #f8ffe8;
+	background: -moz-linear-gradient(top,  #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8ffe8), color-stop(33%,#e3f5ab), color-stop(100%,#b7df2d));
+	background: -webkit-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+	background: -o-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+	background: -ms-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+	background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%);
+
+	/* Shadow & Gradient */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color="#aaaaaa"),
+			progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 );
+
+	}
+
+
+
+.jellyboxBlack
+	{
+	color: #ffffff;
+
+	/* ColorZilla - Ultimate CSS Gradient Generator */
+	background: #959595;
+	background: -moz-linear-gradient(top,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#959595), color-stop(46%,#0d0d0d), color-stop(50%,#010101), color-stop(53%,#0a0a0a), color-stop(76%,#4e4e4e), color-stop(87%,#383838), color-stop(100%,#1b1b1b));
+	background: -webkit-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
+	background: -o-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
+	background: -ms-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
+	background: linear-gradient(to bottom,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
+
+	/* Shadow & Gradient */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color="#aaaaaa"),
+			progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 );
+	}
+
+
+
+.jellyboxRed
+	{
+	/* ColorZilla - Ultimate CSS Gradient Generator */
+	background: #febbbb;
+	background: -moz-linear-gradient(top,  #febbbb 0%, #fe9090 34%, #ff5c5c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#febbbb), color-stop(34%,#fe9090), color-stop(100%,#ff5c5c));
+	background: -webkit-linear-gradient(top,  #febbbb 0%,#fe9090 34%,#ff5c5c 100%);
+	background: -o-linear-gradient(top,  #febbbb 0%,#fe9090 34%,#ff5c5c 100%);
+	background: -ms-linear-gradient(top,  #febbbb 0%,#fe9090 34%,#ff5c5c 100%);
+	background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 34%,#ff5c5c 100%);
+
+	/* Shadow & Gradient */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ),
+			progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color="#aaaaaa");
+	}
+
+
+
+.jellyboxGreen
+	{
+	/* ColorZilla - Ultimate CSS Gradient Generator */
+	background: #a9db80;
+	background: -moz-linear-gradient(top,  #a9db80 45%, #96c56f 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,#a9db80), color-stop(100%,#96c56f));
+	background: -webkit-linear-gradient(top,  #a9db80 45%,#96c56f 100%);
+	background: -o-linear-gradient(top,  #a9db80 45%,#96c56f 100%);
+	background: -ms-linear-gradient(top,  #a9db80 45%,#96c56f 100%);
+	background: linear-gradient(to bottom,  #a9db80 45%,#96c56f 100%);
+
+	/* Shadow & Gradient */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ),
+			progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color="#aaaaaa");
+	}
+
+
+
+.jellyboxBlue
+	{
+	/* ColorZilla - Ultimate CSS Gradient Generator */
+	background: #87e0fd;
+	background: -moz-linear-gradient(top,  #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0));
+	background: -webkit-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+	background: -o-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+	background: -ms-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+	background: linear-gradient(to bottom,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+
+	/* Shadow & Gradient */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color="#aaaaaa"),
+			progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 );
+	}
+
+
+.jellyboxLightBlue
+	{
+	/* ColorZilla - Ultimate CSS Gradient Generator */
+	background: #e0f3fa;
+	background: -moz-linear-gradient(top,  #e0f3fa 0%, #d8f0fc 31%, #b8e2f6 78%, #b6dffd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0f3fa), color-stop(31%,#d8f0fc), color-stop(78%,#b8e2f6), color-stop(100%,#b6dffd));
+	background: -webkit-linear-gradient(top,  #e0f3fa 0%,#d8f0fc 31%,#b8e2f6 78%,#b6dffd 100%);
+	background: -o-linear-gradient(top,  #e0f3fa 0%,#d8f0fc 31%,#b8e2f6 78%,#b6dffd 100%);
+	background: -ms-linear-gradient(top,  #e0f3fa 0%,#d8f0fc 31%,#b8e2f6 78%,#b6dffd 100%);
+	background: linear-gradient(to bottom,  #e0f3fa 0%,#d8f0fc 31%,#b8e2f6 78%,#b6dffd 100%);
+
+	/* Shadow & Gradient */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', endColorstr='#b6dffd',GradientType=0 ),
+			progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color="#aaaaaa");
+	}
+
+
